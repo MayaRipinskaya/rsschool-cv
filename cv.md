@@ -29,29 +29,3 @@ __Aducation__
 __English__
 
 A2
-
-.wrap {
-    margin: 0 auto;
-    width: 80%;
-}
-
-.contact_info {
-    display: flex;
-    justify-content: space-between;
-}
-
-.avatar img {
-    height: 20rem;
-}
-
-footer {
-    text-align: center;
-}
-
-footer a {
-    text-decoration: none;
-}
-
-footer img {
-    width: 4rem;
-}

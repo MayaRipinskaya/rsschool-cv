@@ -1,0 +1,29 @@
+html {
+    font-size: 1rem;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.contact_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar img {
+    height: 20rem;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer img {
+    width: 4rem;
+}
