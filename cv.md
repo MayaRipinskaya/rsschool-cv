@@ -20,3 +20,12 @@ __skills__
 
 - Adaptive layout
 
+__Aducation__
+
+- Gomel State Medical University
+
+- IT school _MyFreedom_ (HTML, CSS, JavaScript)
+
+__English__
+
+A2
