@@ -1,5 +1,7 @@
 html {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
 }
 
 .wrap {
@@ -9,7 +11,7 @@ html {
 
 .contact_info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .avatar img {
@@ -26,4 +28,8 @@ footer a {
 
 footer img {
     width: 4rem;
+}
+
+.contact_info {
+    text-decoration: underline;
 }
