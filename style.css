@@ -1,0 +1,35 @@
+html {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.contact_info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.avatar img {
+    height: 20rem;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer img {
+    width: 4rem;
+}
+
+.contact_info {
+    text-decoration: underline;
+}
