@@ -25,12 +25,9 @@ footer {
     background-color: antiquewhite;
 }
 
-footer article {
-    padding: 1rem
-}
-
 footer a {
     text-decoration: none;
+    padding: 1rem
 }
 
 footer img {
