@@ -30,6 +30,10 @@ footer a {
     padding: 1rem
 }
 
+a {
+    text-decoration: none;
+}
+
 footer img {
     width: 4rem;
 }
