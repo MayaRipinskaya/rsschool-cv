@@ -17,7 +17,31 @@
             <hr>
         </header>
         <main>
-            <section class="contact_info">
+            <div class="burger">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png" alt="menu">
+                <ul>
+                    <li>
+                        <a href="#contact_info">Contact info</a>
+                    </li>
+                    <li>
+                        <a href="#aboutMe">AboutMe</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#examples">Examples</a>
+                    </li>
+                    <li>
+                        <a href="#aducation">Aducation</a>
+                    </li>
+                    <li>
+                        <a href="#eng">English</a>
+                    </li>
+
+                </ul>
+            </div>
+            <section id="contact_info">
                 <div>
                     <h3>Name</h3>
                     <p>Maya Ripinskaya</p>
@@ -32,58 +56,63 @@
                     <img src="9128.jpg" alt="photo">
                 </div>
             </section>
-            <div class="aboutMe">
+            <div id="aboutMe">
                 <h3>About Myself</h3>
                 <p>In 2015, I graduated from the medical university, after a year of working as an intern, I went on maternity leave, after which I decided to change my occupation and began studying frontend, I consider it an interesting and promising profession.
                     I'm not working at the moment, I'm studying JS. I consider my strengths to be perseverance and the desire to deeply understand the problem, politeness and a sense of tact in communicating with people
                 </p>
             </div>
-            <div class="skills">
+            <div id="skills">
                 <h3>Skills</h3>
                 <ul>
                     <li>HTML5, CSS3, JS</li>
                     <li>Adaptive layout</li>
                 </ul>
             </div>
-            <div class="examples">
+            <div id="examples">
                 <h3>Code example</h3>
+                <div class="code-ex">
+
+                    <p>
+                        Let's build a calculator that can calculate the average for an arbitrary number of arguments. The test expects you to provide a Calculator object with an average method: Calculator.average() The test also expects that when you pass no arguments, it returns
+                        0. The arguments are expected to be integers. It expects Calculator.average(3,4,5) to return 4.
+                    </p>
+                    <p class="code">
+                        <pre>
+    var Calculator = {
+        average: function(...args) {
+            let numbers = [...args]
+            if(numbers.length === 0) return 0
+            return((numbers.reduce((a, b) => {
+                return a + b;
+            }) / numbers.length))
+        }
+    };
+                        </pre>
+                    </p>
+                </div>
+
                 <p>
-                    Let's build a calculator that can calculate the average for an arbitrary number of arguments. The test expects you to provide a Calculator object with an average method: Calculator.average() The test also expects that when you pass no arguments, it returns
-                    0. The arguments are expected to be integers. It expects Calculator.average(3,4,5) to return 4.
+                    <a href="https://github.com/MayaRipinskaya/Weather.git" target="blank" rel="noopener">Weather app</a>
+
                 </p>
-                <p>
-                    <pre>
-                    var Calculator = {
-                        average: function(...args) {
-                           let numbers = [...args]
-                           if(numbers.length === 0) return 0
-                            return((numbers.reduce((a, b) => {
-                                return a + b;
-                            }) / numbers.length))
-                        }
-                    };
-                </pre>
-                    <h3>
-                        <a href="https://github.com/MayaRipinskaya/Weather.git" target="blank" rel="noopener">Weather app</a>
-                        <!-- <a>
-                            <href href="https://github.com/MayaRipinskaya/Weather.git"></href> Weather app</a> -->
-                    </h3>
 
 
 
             </div>
-            <div class="aducation">
+            <div id="aducation">
                 <h3>Aducation</h3>
                 <ul>
                     <li>Gomel State Medical University</li>
                     <li>IT school _MyFreedom_ (HTML, CSS, JavaScript)</li>
                 </ul>
             </div>
-            <div class="eng">
+            <div id="eng">
                 <h3>English</h3>
                 <p>A2</p>
             </div>
         </main>
+        <hr>
         <footer>
             <article id="GH">
                 <h5>
