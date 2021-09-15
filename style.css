@@ -9,7 +9,32 @@ html {
     width: 60%;
 }
 
-.contact_info {
+.burger {
+    display: none;
+}
+
+.burger ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.burger li a {
+    color: black;
+}
+
+.burger li {
+    margin: 2% 0;
+}
+
+.burger li :hover {
+    color: lightgrey;
+}
+
+.burger img {
+    width: 5%;
+}
+
+#contact_info {
     display: flex;
     justify-content: space-around;
 }
@@ -22,7 +47,6 @@ footer {
     text-align: center;
     display: flex;
     justify-content: space-between;
-    background-color: antiquewhite;
 }
 
 footer a {
@@ -30,19 +54,36 @@ footer a {
     padding: 1rem
 }
 
+a {
+    text-decoration: none;
+}
+
 footer img {
     width: 4rem;
 }
 
-.contact_info {
+h3 {
     text-decoration: underline;
 }
 
 header {
-    background-color: antiquewhite;
     text-align: center;
 }
 
 header h1 {
     padding-top: 2%;
+}
+
+.code {}
+
+@media screen and (max-width: 640px) {
+    #contact_info {
+        display: block;
+    }
+    .burger {
+        display: block;
+    }
+    .code-ex {
+        display: none;
+    }
 }
